@@ -90,5 +90,38 @@ Exercises: Level 2
   num_two = 25
   modules = num_two % num_one
   print('remainder  value is ', modules)
+# Calculate num_one to the power of num_two and assign the value to a variable exp
+  num_one = 5
+  num_two = 4
+  power = num_one ** num_two
+  print('square power is :', power)
+# Find floor division of num_one by num_two and assign the value to a variable floor_division
+  num_one = 25
+  num_two = 5
+  floor_division = num_one // num_two
+  print('floor division is :', floor_division)
 
-<< Day 1 | Da
+# The radius of a circle is 30 meters.
+  # A. Calculate the area of a circle and assign the value to a variable name of area_of_circle
+      
+    import math
+    radius = 30
+    # Formula: Area = π * r²
+    area_of_circle = math.pi *(radius ** 2)
+    print('area_of_circle is :', area_of_circle)
+
+
+  # B. Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+    import math
+    radius = 30
+    # Formula: Circumference = 2 * π * r
+    circum_of_circle = 2 * math.pi * radius
+    print('circum_of circle is :', circum_of_circle)
+
+  # c. Take radius as user input and calculate the area.
+    radius = int(input('enter radius :'))
+    import math
+    area_of_circle = math.pi *(radius ** 2)
+    circum_of_circle = 2 * math.pi * radius
+    print('area_of_circle is :', area_of_circle)
+    print('circum_of circle is :', circum_of_circle)
