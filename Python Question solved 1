@@ -1,0 +1,94 @@
+#### #Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+base = int(input("enter base :"))
+height = int(input("enter height :"))
+area_of_triangle = 0.5 * base * height
+print("area_of_triangle :", area_of_triangle)
+Excercise level 1
+
+#Declare a first name variable and assign a value to it
+  first_name = 'jasveer'
+  print('first_name :', first_name)
+#Declare a last name variable and assign a value to it
+  last_name = 'singh'
+  print('last_name:', last_name)
+#Declare a full name variable and assign a value to it
+  full_name = 'jasveer singh'
+  print('full_name :', full_name)
+#Declare a country variable and assign a value to it
+  country = 'india'
+  print('country:', country)
+#Declare a city variable and assign a value to it
+  city = 'delhi'
+  print('city :', city)
+#Declare an age variable and assign a value to it
+  age = 15
+  print('age:', age)
+#Declare a year variable and assign a value to it
+  year = 2015
+  print('year :', year)
+#Declare a variable is_married and assign a value to it
+  status = 'married'
+  print('status :', status)
+#Declare a variable is_true and assign a value to it
+  is_true = True
+  print('is_true :', is_true)
+  print(type(is_true))
+#Declare a variable is_light_on and assign a value to it
+  is_light_on = False
+  print('is_light_on :', is_light_on)
+  print(type(is_light_on))
+#Declare multiple variable on one line
+  red, green, blue = 150, 520, 62
+  print('red, green, blue :', red, green, blue)e
+
+Exercises: Level 2
+# Using the len() built-in function, find the length of your first name
+  First_name = 'jasveer'
+  print(len(First_name))
+# Compare the length of your first name and your last name
+  first_name = 'jasveer'
+  last_name = 'singh'
+
+  print(len(first_name))
+  print(len(last_name))
+
+  if first_name < last_name:
+      print('first_name is bigger than last_name')
+  elif first_name > last_name:
+    print('first name is smaller than last_name')
+
+
+# Declare 5 as num_one and 4 as num_two
+  num_one = 5
+  num_two = 4
+  print('num_one :', num_one)
+  print('num_two :', num_two)
+# Add num_one and num_two and assign the value to a variable total
+  num_one = 5
+  num_two = 4
+  sum = num_one + num_two
+  print(sum)
+# Subtract num_two from num_one and assign the value to a variable diff
+  num_one = 10
+  num_two = 25
+  subtract = num_two - num_one
+  print('difference is ', subtract)
+
+# Multiply num_two and num_one and assign the value to a variable product
+  num_one = 10
+  num_two = 25
+  multiply = num_two * num_one
+  print('multiply value is ', multiply)
+# Divide num_one by num_two and assign the value to a variable division
+  num_one = 10
+  num_two = 25
+  division = num_two / num_one
+  print('divisiono value is ', division)
+
+# Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
+  num_one = 10
+  num_two = 25
+  modules = num_two % num_one
+  print('remainder  value is ', modules)
+
+<< Day 1 | Da
