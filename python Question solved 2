@@ -1,1 +1,55 @@
+Excersie level 1
+
+# Declare your age as integer variable
+  age = 15
+  print(type(age))
+# Declare your height as a float variable
+  height = 175.2
+  print(type(height))
+# Declare a variable that store a complex number
+  complex = 1 + 1j
+  print(type(complex))
+# Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+
+  base = int(input('enter base :'))
+  height = int(input('enter height :'))
+  area_of_tringle = 0.5 * base * height
+  print('area_of_tringle is :', area_of_tringle)
+# Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
+  a = int(input('enter side a :'))
+  b = int(input('enter side b :'))
+  c = int(input('enter side c :'))
+  perimeter_of_tringle = a + b + c
+  print('perimeter of tringle is :', perimeter_of_tringle)
+
+#  Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+  length = int(input('enter length :'))
+  width = int(input('enter width :')) 
+  area_of_recentagle = length * width
+  perimeter_of_recentagle = 2 *(length+width)
+  print('area of recentagle is :', area_of_recentagle)
+  print('perimeter of recentangle is :', perimeter_of_recentagle)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
